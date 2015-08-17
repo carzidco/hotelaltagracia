@@ -187,22 +187,22 @@ ul a:focus {
 	font-family: 'Playfair Display SC', serif;
 	color:#000000;	
 }
-.rooms-1 {
-background: url(../images/bed5.jpg) no-repeat;
+.rooms-1{
+background: url(../images/bed8.jpg) no-repeat;
 display: block;
 background-size: cover;
 min-height: 540px;
 text-align: center;
 }
 .rooms-2 {
-background: url(../images/bed3.jpg) no-repeat;
+background: url(../images/bed6.jpg) no-repeat;
 display: block;
 background-size: cover;
 min-height: 540px;
 text-align: center;
 }
 .rooms-3{
-background: url(../images/bed4.jpg) no-repeat;
+background: url(../images/bed7.jpg) no-repeat;
 display: block;
 background-size: cover;
 min-height: 540px;
@@ -224,7 +224,7 @@ text-align: center;
 }
 .room-info1 ul li a{
 	font-size:1.2em;
-	color:#590c0c;
+	color:#5789c6;
 	background:#ffffff;
 	padding:0.3em 1.5em 0.3em 1em;
 	margin:0em 0.5em;
@@ -233,7 +233,7 @@ text-align: center;
 	text-transform:uppercase;
 }
 .room-info1 ul li a:hover{
-	background:#590c0c;
+	background:#5789c6;
 	color:#ffffff;
 }
 .room-info1 {
@@ -315,11 +315,16 @@ i.bro:hover{
 	padding: 0em 2em;
 }
 .contact-left{
-	background: url(../images/6.jpg) no-repeat;
+	background: url(../images/gates_are_open.png) no-repeat;
 	display: block;
 	background-size: cover;
 	min-height: 618px;
 	text-align: center;
+	-moz-transition: all .51s;
+    -o-transition: all .51s;
+    -webkit-transition: all .51s;
+    transition: all .51s;
+    border-radius: 20px;
 }
 .contact-left1 {
 	text-align: center;
@@ -329,7 +334,7 @@ i.bro:hover{
 	padding: 4em 1em;
 }
 .reservation-details{
-	width:48%;
+	width:100%;
 	float:left;
 	padding: 0em 2em;
 }
@@ -374,7 +379,7 @@ i.bro:hover{
 	margin: 0px 16px 0px 0px;
 }
 .contact form input[type="submit"] {
-	background: #5a0b07;
+	background: #5789c6;
 	padding: 0.5em 7em;
 	text-transform: uppercase;
 	color: #fff;
@@ -892,9 +897,10 @@ div#suites {
 	margin: 20px 10px;
 	text-align: center;
 }
-.rooms-1 {
+.rooms-1{
 	margin: 3em 0em 0em;
 }
+
 div#services {
 	margin: 20px 10px;
 }
@@ -1360,4 +1366,18 @@ i.search:hover {
 	margin: 3em 0em 0em;
 	padding: 0em 0em 0em;
 }
+}
+.sectionhead{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.bigicon {font-size: 3em; background-color: #bdbfc2;}
+h2{font-size: 42px;}
+h3{font-size: 32px;}
+h4{font-size: 18px; line-height: 1.4em;}
+
+.table-bullets
+{
+	list-style: none;
 }
